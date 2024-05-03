@@ -1,0 +1,33 @@
+API Endpoint:
+https://apps.digidonar.in/api/sendtemplate.php?
+
+Method:
+GET
+
+Description:
+This API facilitates the sending of WhatsApp template messages using various parameters.
+
+Parameters:
+LicenseNumber (required): The license number associated with the API user.
+
+APIKey (required): The unique API key for authorization and access.
+
+Contact (required): The recipient's phone number in international format (e.g., 91XXXXXXXXXX).
+
+Template (required): The identifier for the specific WhatsApp template to be sent (e.g., XXXXXXXXXX).
+
+Param (optional): Values provided here are used to replace variables within the message body of the WhatsApp template. These values personalize the message content for each recipient. (e.g., Name,xxx,xx).
+
+FileURL (optional): It allows the replacement of default media within the WhatsApp template with custom media content linked through a URL. Ensure the URL points to accessible and appropriately formatted media for accurate substitution in the message.
+
+ (e.g., https://data.btpr.online/ProductPictures/_20.12.2023_14.52.31_REC.png).
+
+URLParam (optional): Additional parameters related to the provided URL (e.g., xxxxxx).
+
+HeadURL (optional): URL used for the header section of the message (e.g., xxxxx).
+
+HeadParam (optional): Parameters for the header section of the message (e.g., xxxxx).
+
+Name (optional): Name parameter (e.g., xxxxx).
+
+PDFName (optional): Name of the PDF file (e.g., xxxxx).
